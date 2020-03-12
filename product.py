@@ -187,7 +187,7 @@ def get_root():
     """ Patterns to get the output """
     help_text = {
         'http://127.0.0.1:5000/': 'shows homepage or helps page',
-        'http://127.0.0.1:5000/products': 'shows all the TD product names',
+        'http://127.0.0.1:5000/products': 'shows all the my product names',
         'http://127.0.0.1:5000/products/my_viewpoint': 'shows general product info for\
          product my Viewpoint',
         'http://127.0.0.1:5000/products/my_viewpoint/15.10': 'properties for my Viewpoint 15.00'
