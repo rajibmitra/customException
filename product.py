@@ -188,9 +188,9 @@ def get_root():
     help_text = {
         'http://127.0.0.1:5000/': 'shows homepage or helps page',
         'http://127.0.0.1:5000/products': 'shows all the TD product names',
-        'http://127.0.0.1:5000/products/teradata_viewpoint': 'shows general product info for\
-         product Teradata Viewpoint',
-        'http://127.0.0.1:5000/products/teradata_viewpoint/15.10': 'properties for Teradata Viewpoint 15.00'
+        'http://127.0.0.1:5000/products/my_viewpoint': 'shows general product info for\
+         product my Viewpoint',
+        'http://127.0.0.1:5000/products/my_viewpoint/15.10': 'properties for my Viewpoint 15.00'
     }
     return jsonify({'message': 'HomePage, directs you what to do next'}, help_text)
 
